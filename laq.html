@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签</title>
+</head>
+<body>
+<!--
+action指定表单数据提交的URL"#"提交到当前网址
+method指定表单提交的方式 "get"默认值
+-->
+    <form action="#" method="post">
+        <input type="text" name="username">
+        <input type="submit">
+        <br>
+        <label for="username">用户名：</label>
+        <input type="text" name="username" id="username"><br>
+
+       <label for="password">密码：</label> <input type="password" name="password" id="password">  <br>
+        <input type="submit" value="注册"><br>
+        性别
+        <input type="radio" name="gender" value="1" id="female"><label for="female">女<label>
+        <input type="radio" name="gender" value="2" id="male"><label for="male">男</label><br>
+
+
+    </form>
+
+</body>
+</html>
